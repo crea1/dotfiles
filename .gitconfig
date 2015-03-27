@@ -1,0 +1,8 @@
+[core]
+	# Global gitignore file
+	excludesfile = ~/.gitignore
+	# Set editor to vim
+	editor = vim
+[color]
+	ui = auto
+
