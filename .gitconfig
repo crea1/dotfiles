@@ -5,4 +5,7 @@
 	editor = vim
 [color]
 	ui = auto
+[push]
+	# Push only the current branch
+	default = simple
 
