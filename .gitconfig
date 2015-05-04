@@ -8,4 +8,7 @@
 [push]
 	# Push only the current branch
 	default = simple
+[branch]
+	# Use rebase on pull
+	autosetuprebase = always
 
