@@ -1,0 +1,6 @@
+#!/bin/bash
+#
+# When IntelliJ IDEA wont register keyboard input, restarting the ibus daemon
+# seems to fix it.
+#
+ibus-daemon -rd
