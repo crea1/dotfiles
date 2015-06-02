@@ -11,4 +11,5 @@
 [branch]
 	# Use rebase on pull
 	autosetuprebase = always
-
+[alias]
+	lol = !git log -1 -- | cowsay -f vader | lolcat
