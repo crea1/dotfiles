@@ -1,0 +1,5 @@
+# Put this file in your home folder
+#
+# This makes it possible to start writing a command then use arrows up/down to search history
+"\e[A": history-search-backward
+"\e[B": history-search-forward
