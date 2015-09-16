@@ -13,3 +13,5 @@
 	autosetuprebase = always
 [alias]
 	lol = !git log -1 -- | cowsay -f vader | lolcat
+	# Remove everything not tracked by git
+	clr = clean -fdX
