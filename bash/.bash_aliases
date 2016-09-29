@@ -13,3 +13,6 @@ alias ll="ls -la"
 
 # show my internet ip
 alias myip="echo `curl -s https://api.ipify.org`"
+
+# copy to clipboard
+alias copy="xclip -selection clipboard"
