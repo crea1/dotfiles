@@ -18,8 +18,8 @@
 	# Fuck this!
 	fuckit = "!git reset --hard && git clean -f"
 [diff]
-	# git 2.9 experimental diff algorithm
-	compactionHeuristic = true
+	# git 2.11 experimental diff algorithm
+	indentHeuristic = true
 [gui]
-	# git 2.9 experimental diff algorithm
-	diffopts = --compaction-heuristic
+	# git 2.11 experimental diff algorithm
+	diffopts = --indent-heuristic
