@@ -16,7 +16,7 @@
 	# Remove everything not tracked by git
 	clr = clean -fdX
 	# Fuck this!
-	fuckit = "!git reset --hard && git clean -f"
+	fuckit = "!git reset --hard && git clean -fd"
 [diff]
 	# git 2.11 experimental diff algorithm
 	indentHeuristic = true
