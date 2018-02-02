@@ -5,6 +5,9 @@
 	editor = vim
 [color]
 	ui = auto
+[pull]
+	# Use rebase on pull (new git)
+	rebase = true
 [push]
 	# Push only the current branch
 	default = simple
@@ -23,3 +26,5 @@
 [gui]
 	# git 2.11 experimental diff algorithm
 	diffopts = --indent-heuristic
+[user]
+	name = Marius Kristensen
