@@ -11,6 +11,9 @@
 [push]
 	# Push only the current branch
 	default = simple
+[rebase]
+	# Automatically stash changes when rebasing
+	autostash = true	
 [branch]
 	# Use rebase on pull
 	autosetuprebase = always
